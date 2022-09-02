@@ -21,12 +21,21 @@
     <div class="header">
       </div>
   
+<!--dark & light -->
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
   
   <!--photo and name -->
       <div class="container">
         <img id="userphoto" src="avatar.jpg"
         alt="Useravatar">
-        <h1>MR_ZIVA_</h1>
+        <h1 onclick="myFunction()">MR_ZIVA_</h1>
       </div>
       
       <!---link & redirecting button -->
